@@ -1,0 +1,148 @@
+.header-col {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.col-sm-4 {
+    width: 33%;
+    padding: 0;
+}
+
+.nopads {
+    padding: 0;
+}
+.vs-choice {
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #000;
+    height: 100px;
+}
+.vs-choiceX {
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #000;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.onePlayer {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.twoPlayers {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.vs-text {
+    font-size: 11px;
+    text-align: center;
+}
+
+.blocks {
+    padding-top: 29%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #333;
+    text-align: center;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    margin: 3px;
+    width: 33% !important;
+}
+
+.wider {
+    margin: 0px;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.active {
+    background-color: #99ff99;
+}
+
+.spacer {
+    padding-top: 50px;
+}
+
+.spacer-top {
+    padding-top: 75px;
+}
+
+.outside {
+    padding: 0 20%;
+}
+
+.whoseturn {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.click-disable{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+}
+
+.gameplay-disable{
+    position: absolute;
+    top: 375px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    background-color: #fff;
+}
+
+.gametype-disable{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 350px;
+    width: 100%;
+    visibility: hidden;
+}
+
+.game-end{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 110vh;
+    width: 100%;
+    visibility: hidden;
+    background-color:rgba(50,50,50,.8);
+    max-width: 100% !important;
+}
+
+.final-text {
+    text-align: center;
+    font-size: 40;
+    width: 100% !important;
+}
+
+.winner {
+    font-size: 100px;
+    color: #ffe676;
+}
+.reset-button {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    color: #000;
+}

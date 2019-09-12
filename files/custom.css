@@ -1,0 +1,19 @@
+.header-col {
+    text-align: center;
+}
+
+.blocks {
+    padding-top: 33.3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    text-align: center;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.active {
+    background-color: #ff9999
+}

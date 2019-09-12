@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tic Tac Toe!</title>
+        <!-- Bootstrap -->
+        <link href="rb/bootstrap.min.css" rel="stylesheet">
+        <link href="rb/custom.css" rel="stylesheet">
+       
+    </head>
+    <body>
+        <div class="container outside">
+            <div class="container">
+                <div class="row title">
+                    <div class="col-lg-12 header-col">
+                        <h1>ALEX'S<BR>TIC TAC TOE</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 spacer-top"></div>
+                </div>
+                <div class="row playerTurn">
+                    <div class="col-sm-4 vs-choice onePlayer" id="100"></div>
+                    <div class="col-sm-4 vs-choiceX playerAnswer" id="300"></div>
+                    <div class="col-sm-4 vs-choice twoPlayers" id="200"></div>
+                </div>
+                <div class="row playerTurn">
+                    <div class="col-sm-4 vs-text" id="playerText">vs player</div>
+                    <div class="col-sm-4 vs-text" id="vsText"></div>
+                    <div class="col-sm-4 vs-text" id="computerText">vs computer</div>
+                    </div>
+                <div class="row">
+                    <div class="col-lg-12 spacer-top"></div>
+                </div>
+                <div class="row playerTurn">
+                    <div class="col-sm-4 whoseturn" id="playerTurn">PLAYER ONE</div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 whoseturn player-computer" id="computerTurn"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 spacer"></div>
+                </div>
+                <div class="row wider">
+                    <div class="col-md-4 blocks" id="0">
+                        <span class="topLeft">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="1">
+                        <span class="topCenter">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="2">
+                        <span class="topRight">
+                        </span>
+                    </div>
+                </div>
+                <div class="row wider">
+                    <div class="col-md-4 blocks" id="3">
+                        <span class="middleLeft">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="4">
+                        <span class="middleCenter">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="5">
+                        <span class="middleRight">
+                        </span>
+                    </div>
+                </div>
+                <div class="row wider">
+                    <div class="col-md-4 blocks" id="6">
+                        <span class="bottomLeft">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="7">
+                        <span class="bottomCenter">
+                        </span>
+                    </div>
+                    <div class="col-md-4 blocks" id="8">
+                        <span class="bottomRight">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="click-disable" id="ClickDisable">
+            
+        </div>
+        <div class="gameplay-disable" id="GameplayDisable">
+            
+        </div>
+        <div class="gametype-disable" id="GametypeDisable">
+            
+        </div>
+        <div class="game-end container" id="gameEnd">
+                <div class="row">
+                    <div class="col-lg-12 spacer-top"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 spacer-top"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 spacer-top"></div>
+                </div>
+            <div class="row">
+                <div class="row-md-12 final-text"><h1 class="winner" id="winnerAnnounced"></h1>
+                    <br><br>
+                    <button type="button" class="reset-button" onClick="window.location.reload();" id="resetButton">PLAY AGAIN</button></div>
+            </div>
+        </div>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="rb/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="rb/customComp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
